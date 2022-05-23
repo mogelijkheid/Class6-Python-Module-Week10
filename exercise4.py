@@ -4,7 +4,7 @@ def connect():
         """ Connect to the PostgreSQL database server """
         conn = psycopg2.connect(
             host="localhost",
-            database="pycoders",
+            database="pagila",
             user="postgres",
             password="1")
 
